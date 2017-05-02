@@ -10,6 +10,7 @@ install:
 
 test_script:
   # Output useful info for debugging.
+  - ps: $PSVersionTable
   - node --version
   - npm --version
   # run tests
