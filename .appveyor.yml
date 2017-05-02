@@ -13,8 +13,5 @@ test_script:
   # run tests
   - npm test
 
-after_test:
-  - npm run coveralls
-
 # Don't actually build.
 build: off
